@@ -71,7 +71,7 @@ hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 hi Pmenu            ctermbg=Magenta guibg=Magenta
-hi PmenuSel         ctermbg=Magenta guibg=Deepskyblue guifg=White
+hi PmenuSel         ctermbg=Magenta guibg=Purple guifg=White
 hi PmenuSbar        ctermbg=Magenta guibg=Magenta
 hi PmenuThumb       ctermbg=Magenta guibg=Magenta
 
