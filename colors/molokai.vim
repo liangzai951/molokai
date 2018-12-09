@@ -70,10 +70,10 @@ hi Pmenu           guifg=#66D9EF guibg=#000000
 hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
-hi Pmenu            ctermbg=Magenta guibg=Magenta
-hi PmenuSel         ctermbg=Magenta guibg=Purple guifg=White
-hi PmenuSbar        ctermbg=Magenta guibg=Magenta
-hi PmenuThumb       ctermbg=Magenta guibg=Magenta
+hi Pmenu           ctermbg=DarkMagenta guibg=DarkMagenta
+hi PmenuSel        ctermbg=magenta     guibg=Purple guifg=White
+hi PmenuSbar       ctermbg=magenta     guibg=magenta
+hi PmenuThumb      ctermbg=magenta     guibg=magenta
 
 hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
