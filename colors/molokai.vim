@@ -70,10 +70,27 @@ hi Pmenu           guifg=#66D9EF guibg=#000000
 hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
-hi Pmenu           ctermbg=DarkMagenta guibg=DarkMagenta
-hi PmenuSel        ctermbg=magenta     guibg=Purple guifg=White
-hi PmenuSbar       ctermbg=magenta     guibg=magenta
-hi PmenuThumb      ctermbg=magenta     guibg=magenta
+
+hi Pmenu           guibg=DarkMagenta
+hi PmenuSel        guibg=Purple        guifg=White
+
+hi Pmenu           guibg=DarkOrange3
+hi PmenuSel        guibg=DarkGoldenrod guifg=White gui=bold
+
+hi Pmenu           guibg=DarkOrange3
+hi PmenuSel        guibg=DarkMagenta   guifg=White gui=bold
+
+hi Pmenu           guibg=OrangeRed1
+hi PmenuSel        guibg=Orange1       guifg=White gui=bold
+
+hi Pmenu           guibg=Olive
+hi PmenuSel        guibg=Yellowgreen   guifg=White gui=bold
+
+hi Pmenu           guibg=Olivedrab
+hi PmenuSel        guibg=Yellowgreen   guifg=White gui=bold
+
+hi PmenuSbar       guibg=Silver
+hi PmenuThumb      guibg=Slategray
 
 hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
@@ -191,6 +208,27 @@ if &t_Co > 255
    hi PmenuSel        ctermfg=255 ctermbg=242
    hi PmenuSbar                   ctermbg=232
    hi PmenuThumb      ctermfg=81
+   
+   hi Pmenu           ctermbg=DarkMagenta
+   hi PmenuSel        ctermbg=Purple       ctermfg=White
+
+   hi Pmenu           ctermbg=DarkOrange3
+   hi PmenuSel        ctermbg=DarkGoldenrod ctermfg=White cterm=bold
+
+   hi Pmenu           ctermbg=DarkOrange3
+   hi PmenuSel        ctermbg=DarkMagenta   ctermfg=White cterm=bold
+
+   hi Pmenu           ctermbg=OrangeRed1
+   hi PmenuSel        ctermbg=Orange1       ctermfg=White cterm=bold
+
+   hi Pmenu           ctermbg=Olive
+   hi PmenuSel        ctermbg=Yellowgreen   ctermfg=White cterm=bold
+
+   hi Pmenu           ctermbg=Olivedrab
+   hi PmenuSel        ctermbg=Yellowgreen   ctermfg=White cterm=bold
+
+   hi PmenuSbar       ctermbg=Silver
+   hi PmenuThumb      ctermbg=Slategray
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
