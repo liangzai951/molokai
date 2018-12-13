@@ -225,10 +225,10 @@ if &t_Co > 255
    hi PmenuSel        ctermbg=35   ctermfg=White cterm=bold
 
    hi Pmenu           ctermbg=34     ctermfg=White
-   hi PmenuSel        ctermbg=35   ctermfg=White cterm=bold
+   hi PmenuSel        ctermbg=37   ctermfg=White cterm=bold
 
-   hi PmenuSbar       ctermbg=7
-   hi PmenuThumb      ctermbg=233
+   hi PmenuSbar       ctermbg=233
+   hi PmenuThumb      ctermbg=7
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
