@@ -219,13 +219,13 @@ if &t_Co > 255
    hi PmenuSel        ctermbg=DarkMagenta  ctermfg=White cterm=bold
 
    hi Pmenu           ctermbg=202          ctermfg=White
-   hi PmenuSel        ctermbg=214      ctermfg=White cterm=bold
+   hi PmenuSel        ctermbg=214          ctermfg=White cterm=bold
 
-   hi Pmenu           ctermbg=58         ctermfg=White
-   hi PmenuSel        ctermbg=35   ctermfg=White cterm=bold
+   hi Pmenu           ctermbg=58           ctermfg=White
+   hi PmenuSel        ctermbg=136          ctermfg=White cterm=bold
 
-   hi Pmenu           ctermbg=34     ctermfg=White
-   hi PmenuSel        ctermbg=37   ctermfg=White cterm=bold
+   hi Pmenu           ctermbg=34           ctermfg=White
+   hi PmenuSel        ctermbg=37           ctermfg=White cterm=bold
 
    hi PmenuSbar       ctermbg=233
    hi PmenuThumb      ctermbg=7
