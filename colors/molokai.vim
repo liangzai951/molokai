@@ -227,6 +227,9 @@ if &t_Co > 255
    hi Pmenu           ctermbg=58           ctermfg=White
    hi PmenuSel        ctermbg=136          ctermfg=White cterm=bold
 
+   hi Pmenu           ctermbg=62           ctermfg=White
+   hi PmenuSel        ctermbg=68           ctermfg=White cterm=bold
+   
    hi Pmenu           ctermbg=34           ctermfg=White
    hi PmenuSel        ctermbg=37           ctermfg=White cterm=bold
 
