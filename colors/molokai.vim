@@ -72,7 +72,7 @@ hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
 hi Pmenu           guibg=DarkMagenta   guifg=White
-hi PmenuSel        guibg=Purple        guifg=White
+hi PmenuSel        guibg=Purple        guifg=White gui=bold
 
 hi Pmenu           guibg=DarkOrange3   guifg=White
 hi PmenuSel        guibg=DarkGoldenrod guifg=White gui=bold
@@ -210,7 +210,7 @@ if &t_Co > 255
    hi PmenuThumb      ctermfg=81
    
    hi Pmenu           ctermbg=DarkMagenta  ctermfg=White
-   hi PmenuSel        ctermbg=93       ctermfg=White
+   hi PmenuSel        ctermbg=93           ctermfg=White  cterm=bold
 
    hi Pmenu           ctermbg=DarkOrange3   ctermfg=White
    hi PmenuSel        ctermbg=DarkGoldenrod ctermfg=White cterm=bold
