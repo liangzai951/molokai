@@ -210,7 +210,7 @@ if &t_Co > 255
    hi PmenuThumb      ctermfg=81
    
    hi Pmenu           ctermbg=DarkMagenta  ctermfg=White
-   hi PmenuSel        ctermbg=Purple       ctermfg=White
+   hi PmenuSel        ctermbg=93       ctermfg=White
 
    hi Pmenu           ctermbg=DarkOrange3   ctermfg=White
    hi PmenuSel        ctermbg=DarkGoldenrod ctermfg=White cterm=bold
