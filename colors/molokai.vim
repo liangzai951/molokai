@@ -212,10 +212,10 @@ if &t_Co > 255
    hi Pmenu           ctermbg=DarkMagenta  ctermfg=White
    hi PmenuSel        ctermbg=93           ctermfg=White  cterm=bold
 
-   hi Pmenu           ctermbg=DarkOrange3   ctermfg=White
+   hi Pmenu           ctermbg=130   ctermfg=White
    hi PmenuSel        ctermbg=DarkGoldenrod ctermfg=White cterm=bold
 
-   hi Pmenu           ctermbg=DarkOrange3   ctermfg=White
+   hi Pmenu           ctermbg=130   ctermfg=White
    hi PmenuSel        ctermbg=DarkMagenta   ctermfg=White cterm=bold
 
    hi Pmenu           ctermbg=OrangeRed1    ctermfg=White
