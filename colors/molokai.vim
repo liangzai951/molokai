@@ -228,7 +228,7 @@ if &t_Co > 255
    hi PmenuSel        ctermbg=Yellowgreen   ctermfg=White cterm=bold
 
    hi PmenuSbar       ctermbg=7
-   hi PmenuThumb      ctermbg=8
+   hi PmenuThumb      ctermbg=233
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
