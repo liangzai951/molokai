@@ -71,22 +71,22 @@ hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
-hi Pmenu           guibg=DarkMagenta
+hi Pmenu           guibg=DarkMagenta   guifg=White
 hi PmenuSel        guibg=Purple        guifg=White
 
-hi Pmenu           guibg=DarkOrange3
+hi Pmenu           guibg=DarkOrange3   guifg=White
 hi PmenuSel        guibg=DarkGoldenrod guifg=White gui=bold
 
-hi Pmenu           guibg=DarkOrange3
+hi Pmenu           guibg=DarkOrange3   guifg=White
 hi PmenuSel        guibg=DarkMagenta   guifg=White gui=bold
 
-hi Pmenu           guibg=OrangeRed1
+hi Pmenu           guibg=OrangeRed1    guifg=White
 hi PmenuSel        guibg=Orange1       guifg=White gui=bold
 
-hi Pmenu           guibg=Olive
+hi Pmenu           guibg=Olive         guifg=White
 hi PmenuSel        guibg=Yellowgreen   guifg=White gui=bold
 
-hi Pmenu           guibg=Olivedrab
+hi Pmenu           guibg=Olivedrab     guifg=White
 hi PmenuSel        guibg=Yellowgreen   guifg=White gui=bold
 
 hi PmenuSbar       guibg=Silver
@@ -209,22 +209,22 @@ if &t_Co > 255
    hi PmenuSbar                   ctermbg=232
    hi PmenuThumb      ctermfg=81
    
-   hi Pmenu           ctermbg=DarkMagenta
+   hi Pmenu           ctermbg=DarkMagenta  ctermfg=White
    hi PmenuSel        ctermbg=Purple       ctermfg=White
 
-   hi Pmenu           ctermbg=DarkOrange3
+   hi Pmenu           ctermbg=DarkOrange3   ctermfg=White
    hi PmenuSel        ctermbg=DarkGoldenrod ctermfg=White cterm=bold
 
-   hi Pmenu           ctermbg=DarkOrange3
+   hi Pmenu           ctermbg=DarkOrange3   ctermfg=White
    hi PmenuSel        ctermbg=DarkMagenta   ctermfg=White cterm=bold
 
-   hi Pmenu           ctermbg=OrangeRed1
+   hi Pmenu           ctermbg=OrangeRed1    ctermfg=White
    hi PmenuSel        ctermbg=Orange1       ctermfg=White cterm=bold
 
-   hi Pmenu           ctermbg=Olive
+   hi Pmenu           ctermbg=Olive         ctermfg=White
    hi PmenuSel        ctermbg=Yellowgreen   ctermfg=White cterm=bold
 
-   hi Pmenu           ctermbg=Olivedrab
+   hi Pmenu           ctermbg=Olivedrab     ctermfg=White
    hi PmenuSel        ctermbg=Yellowgreen   ctermfg=White cterm=bold
 
    hi PmenuSbar       ctermbg=Silver
