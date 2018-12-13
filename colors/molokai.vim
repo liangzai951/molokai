@@ -212,14 +212,14 @@ if &t_Co > 255
    hi Pmenu           ctermbg=DarkMagenta  ctermfg=White
    hi PmenuSel        ctermbg=93           ctermfg=White  cterm=bold
 
-   hi Pmenu           ctermbg=130   ctermfg=White
-   hi PmenuSel        ctermbg=136 ctermfg=White cterm=bold
+   hi Pmenu           ctermbg=130          ctermfg=White
+   hi PmenuSel        ctermbg=136          ctermfg=White cterm=bold
 
-   hi Pmenu           ctermbg=130   ctermfg=White
-   hi PmenuSel        ctermbg=DarkMagenta   ctermfg=White cterm=bold
+   hi Pmenu           ctermbg=130          ctermfg=White
+   hi PmenuSel        ctermbg=DarkMagenta  ctermfg=White cterm=bold
 
-   hi Pmenu           ctermbg=OrangeRed1    ctermfg=White
-   hi PmenuSel        ctermbg=Orange1       ctermfg=White cterm=bold
+   hi Pmenu           ctermbg=202          ctermfg=White
+   hi PmenuSel        ctermbg=214      ctermfg=White cterm=bold
 
    hi Pmenu           ctermbg=Olive         ctermfg=White
    hi PmenuSel        ctermbg=Yellowgreen   ctermfg=White cterm=bold
@@ -227,8 +227,8 @@ if &t_Co > 255
    hi Pmenu           ctermbg=Olivedrab     ctermfg=White
    hi PmenuSel        ctermbg=Yellowgreen   ctermfg=White cterm=bold
 
-   hi PmenuSbar       ctermbg=Silver
-   hi PmenuThumb      ctermbg=Slategray
+   hi PmenuSbar       ctermbg=7
+   hi PmenuThumb      ctermbg=8
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
