@@ -24,3 +24,25 @@ There is also an alternative scheme under development for color terminals which 
 let g:rehash256 = 1
 ```
 
+You can also alternative the popup menu color configuration in your .vimrc or \_vimrc file:
+```
+"不同配置下gvim 弹出窗口颜色不同
+"alternative gui enviroment popmenu color set:
+"(Olivedrab,Yellowgreen),(DarkMagenta,Purple),(DarkOrange3,DarkGoldenrod)
+"(DarkOrange3,DarkMagenta),(OrangeRed1,Orange1),(Olive,Yellowgreen)
+let PmenuGuibg="Olivedrab"
+let PmenuSelGuibg="Yellowgreen"
+"let PmenuSbarGuibg="Slategray"
+"let PmenuThumbGuibg="Silver"
+
+"不同配置下终端中vim弹出窗口颜色不同
+"alternative cterm enviroment popmenu color set:
+"(34,37),(DarkMagenta,93),(6,42),(2,100),(56,62)
+"(130,136),(130,DarkMagenta),(202,214),(203,209)
+"(26,32),(58,136),(62,68)
+let PmenuCtermbg="34"
+let PmenuSelCtermbg="37"
+"let PmenuSbarCtermbg="233"
+"let PmenuThumbCtermbg="7"
+```
+
