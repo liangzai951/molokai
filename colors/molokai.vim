@@ -77,7 +77,7 @@ if exists("PmenuGuibg")
 endif
 if exists("PmenuSelGuibg")
     let set_pmenu_color="hi PmenuSel        guifg=White   guibg=".PmenuSelGuibg."  gui=bold"
-	exec set_pmenu_color
+    exec set_pmenu_color
 endif
 if (exists("PmenuGuibg") || exists("PmenuSelGuibg")) 
 	hi PmenuSbar       guibg=Silver
@@ -85,11 +85,11 @@ if (exists("PmenuGuibg") || exists("PmenuSelGuibg"))
 endif
 if exists("PmenuSbarGuibg")
     let set_pmenu_color="hi PmenuSbar       guibg=".PmenuSbarGuibg
-	exec set_pmenu_color
+    exec set_pmenu_color
 endif
 if exists("PmenuThumbGuibg")
     let set_pmenu_color="hi PmenuThumb      guibg=".PmenuThumbGuibg
-	exec set_pmenu_color
+    exec set_pmenu_color
 endif
 
 hi PreCondit       guifg=#A6E22E               gui=bold
@@ -215,7 +215,7 @@ if &t_Co > 255
    endif
    if exists("PmenuSelCtermbg")
        let set_pmenu_color="hi PmenuSel        ctermfg=White   ctermbg=".PmenuSelCtermbg."  cterm=bold"
-	   exec set_pmenu_color
+       exec set_pmenu_color
    endif
    if (exists("PmenuCtermbg") || exists("PmenuSelCtermbg")) 
 	   hi PmenuSbar       ctermbg=233
@@ -223,11 +223,11 @@ if &t_Co > 255
    endif
    if exists("PmenuSbarCtermbg")
        let set_pmenu_color="hi PmenuSbar       ctermbg=".PmenuSbarCtermbg
-	   exec set_pmenu_color
+       exec set_pmenu_color
    endif
    if exists("PmenuThumbGuibg")
        let set_pmenu_color="hi PmenuThumb      ctermbg=".PmenuThumbCtermbg
-	   exec set_pmenu_color
+       exec set_pmenu_color
    endif
 
    hi PreCondit       ctermfg=118               cterm=bold
