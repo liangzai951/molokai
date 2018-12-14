@@ -80,8 +80,8 @@ if exists("PmenuSelGuibg")
     exec set_pmenu_color
 endif
 if (exists("PmenuGuibg") || exists("PmenuSelGuibg")) 
-	hi PmenuSbar       guibg=Silver
-	hi PmenuThumb      guibg=Slategray
+	hi PmenuSbar       guibg=Slategray
+	hi PmenuThumb      guibg=Silver
 endif
 if exists("PmenuSbarGuibg")
     let set_pmenu_color="hi PmenuSbar       guibg=".PmenuSbarGuibg
