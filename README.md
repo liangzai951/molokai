@@ -32,16 +32,18 @@ You can also alternative the popup menu color configuration in your .vimrc or \_
 "(DarkOrange3,DarkMagenta),(OrangeRed1,Orange1),(Olive,Yellowgreen)
 let PmenuGuibg="Olivedrab"
 let PmenuSelGuibg="Yellowgreen"
+
 "let PmenuSbarGuibg="Slategray"
 "let PmenuThumbGuibg="Silver"
 
 "不同配置下终端中vim弹出窗口颜色不同
 "alternative cterm enviroment popmenu color set:
-"(34,37),(DarkMagenta,93),(6,42),(2,100),(56,62)
+"(28,34),(DarkMagenta,93),(6,42),(2,100),(56,62)
 "(130,136),(130,DarkMagenta),(202,214),(203,209)
-"(26,32),(58,136),(62,68)
-let PmenuCtermbg="34"
-let PmenuSelCtermbg="37"
+"(26,32),(58,136),(62,68),(34,37)
+let PmenuCtermbg="28"
+let PmenuSelCtermbg="34"
+
 "let PmenuSbarCtermbg="233"
 "let PmenuThumbCtermbg="7"
 ```
