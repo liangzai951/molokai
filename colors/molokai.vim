@@ -71,26 +71,26 @@ hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
-hi Pmenu           guibg=DarkMagenta   guifg=White
-hi PmenuSel        guibg=Purple        guifg=White gui=bold
-
-hi Pmenu           guibg=DarkOrange3   guifg=White
-hi PmenuSel        guibg=DarkGoldenrod guifg=White gui=bold
-
-hi Pmenu           guibg=DarkOrange3   guifg=White
-hi PmenuSel        guibg=DarkMagenta   guifg=White gui=bold
-
-hi Pmenu           guibg=OrangeRed1    guifg=White
-hi PmenuSel        guibg=Orange1       guifg=White gui=bold
-
-hi Pmenu           guibg=Olive         guifg=White
-hi PmenuSel        guibg=Yellowgreen   guifg=White gui=bold
-
-hi Pmenu           guibg=Olivedrab     guifg=White
-hi PmenuSel        guibg=Yellowgreen   guifg=White gui=bold
-
-hi PmenuSbar       guibg=Silver
-hi PmenuThumb      guibg=Slategray
+if exists("PmenuGuibg")
+    let set_pmenu_color="hi Pmenu           guifg=White   guibg=".PmenuGuibg
+    exec set_pmenu_color
+endif
+if exists("PmenuSelGuibg")
+    let set_pmenu_color="hi PmenuSel        guifg=White   guibg=".PmenuSelGuibg."  gui=bold"
+	exec set_pmenu_color
+endif
+if (exists("PmenuGuibg") || exists("PmenuSelGuibg")) 
+	hi PmenuSbar       guibg=Silver
+	hi PmenuThumb      guibg=Slategray
+endif
+if exists("PmenuSbarGuibg")
+    let set_pmenu_color="hi PmenuSbar       guibg=".PmenuSbarGuibg
+	exec set_pmenu_color
+endif
+if exists("PmenuThumbGuibg")
+    let set_pmenu_color="hi PmenuThumb      guibg=".PmenuThumbGuibg
+	exec set_pmenu_color
+endif
 
 hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
@@ -209,44 +209,26 @@ if &t_Co > 255
    hi PmenuSbar                   ctermbg=232
    hi PmenuThumb      ctermfg=81
    
-   hi Pmenu           ctermbg=DarkMagenta  ctermfg=White
-   hi PmenuSel        ctermbg=93           ctermfg=White  cterm=bold
-   
-   hi Pmenu           ctermbg=6            ctermfg=White
-   hi PmenuSel        ctermbg=42           ctermfg=White cterm=bold
-
-   hi Pmenu           ctermbg=2            ctermfg=White
-   hi PmenuSel        ctermbg=100          ctermfg=White cterm=bold
-
-   hi Pmenu           ctermbg=56           ctermfg=White
-   hi PmenuSel        ctermbg=62           ctermfg=White cterm=bold
-
-   hi Pmenu           ctermbg=130          ctermfg=White
-   hi PmenuSel        ctermbg=136          ctermfg=White cterm=bold
-
-   hi Pmenu           ctermbg=130          ctermfg=White
-   hi PmenuSel        ctermbg=DarkMagenta  ctermfg=White cterm=bold
-
-   hi Pmenu           ctermbg=202          ctermfg=White
-   hi PmenuSel        ctermbg=214          ctermfg=White cterm=bold
-   
-   hi Pmenu           ctermbg=203          ctermfg=White
-   hi PmenuSel        ctermbg=209          ctermfg=White cterm=bold
-   
-   hi Pmenu           ctermbg=26           ctermfg=White
-   hi PmenuSel        ctermbg=32           ctermfg=White cterm=bold
-
-   hi Pmenu           ctermbg=58           ctermfg=White
-   hi PmenuSel        ctermbg=136          ctermfg=White cterm=bold
-
-   hi Pmenu           ctermbg=62           ctermfg=White
-   hi PmenuSel        ctermbg=68           ctermfg=White cterm=bold
-   
-   hi Pmenu           ctermbg=34           ctermfg=White
-   hi PmenuSel        ctermbg=37           ctermfg=White cterm=bold
-
-   hi PmenuSbar       ctermbg=233
-   hi PmenuThumb      ctermbg=7
+   if exists("PmenuCtermbg")
+       let set_pmenu_color="hi Pmenu           ctermfg=White   ctermbg=".PmenuCtermbg
+       exec set_pmenu_color
+   endif
+   if exists("PmenuSelCtermbg")
+       let set_pmenu_color="hi PmenuSel        ctermfg=White   ctermbg=".PmenuSelCtermbg."  cterm=bold"
+	   exec set_pmenu_color
+   endif
+   if (exists("PmenuCtermbg") || exists("PmenuSelCtermbg")) 
+	   hi PmenuSbar       ctermbg=233
+	   hi PmenuThumb      ctermbg=7
+   endif
+   if exists("PmenuSbarCtermbg")
+       let set_pmenu_color="hi PmenuSbar       ctermbg=".PmenuSbarCtermbg
+	   exec set_pmenu_color
+   endif
+   if exists("PmenuThumbGuibg")
+       let set_pmenu_color="hi PmenuThumb      ctermbg=".PmenuThumbCtermbg
+	   exec set_pmenu_color
+   endif
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
